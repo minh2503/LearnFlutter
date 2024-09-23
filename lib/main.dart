@@ -1,6 +1,7 @@
 import 'package:day1/accountView.dart';
 import 'package:day1/home.dart';
 import 'package:day1/home2.dart';
+import 'package:day1/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
-      home: Accountview(),
+      home: LoginView(),
     );
   }
 }
